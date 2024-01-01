@@ -11,18 +11,27 @@ body{
     background-color: #2c3047;
 }
 
-.form{
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 20px;
 }
 
-.form img{
+main img{
     max-width: 600px;
     width: 100%;
 }
 
-.form input[type=text],
-.form input[type=species]
+.form{
+    background: #505366;
+    border-radius: 10px;
+    box-shadow: 15px 15px rgba(0, 0, 0, 0.35);
+}
+
+main input[type=text],
+main input[type=species]
 {
     display: block;
     margin: 10px auto;
@@ -34,7 +43,7 @@ body{
     font-size: 17px;
 }
 
-.form textarea{
+main textarea{
     resize: none;
     display: block;
     margin: 10px auto;
@@ -46,7 +55,7 @@ body{
     font-size: 17px;
 }
 
-.form input[type=submit]
+main input[type=submit]
 {
     display: block;
     margin: 10px auto;
@@ -63,6 +72,6 @@ body{
     color: white;
 }
 
-.form input[type=submit]:hover{
+main input[type=submit]:hover{
     background-color: #5f637a;
 }

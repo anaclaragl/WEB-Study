@@ -4,3 +4,22 @@
    box-sizing: border-box;
    font-family: 'Gill Sans', sans-serif; 
 }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding: 20px;
+  gap: 20px;
+  justify-content: center;
+}
+
+figure img{
+  height: 700px;
+}
+
+.item2 {
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  background-color: #2ecc71;
+}
